@@ -13,7 +13,6 @@ import Agent from './component/Agent';
 import logo from'./images/servicetitan.png';
 
 
-
 class App extends Component {
 	constructor(){
 		super()
@@ -35,7 +34,6 @@ class App extends Component {
 						<circle cx="20" cy="20" r="20" fill="gray" />
 					</svg>
 				</div>
-
 
 				<div style={{width:'14%', display:'inline-block', float:'left', height:'calc(100vh - 48px)', backgroundColor:'#233240'}}>
 					<br/>
@@ -67,3 +65,7 @@ class App extends Component {
 
 
 export default App;
+
+
+
+
